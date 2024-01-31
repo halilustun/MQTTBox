@@ -1,0 +1,53 @@
+{
+  "name": "MQTTBox",
+  "version": "0.2.1",
+  "description": "MQTTBox - Developers helper program to create and test MQTT connectivity protocol.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:workswithweb/MQTTBox.git"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "6.20.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-react": "6.16.0",
+    "babelify": "7.3.0",
+    "browser-sync": "2.18.2",
+    "browserify": "13.1.1",
+    "electron": "^28.2.0",
+    "gulp": "^4.0.2",
+    "gulp-notify": "2.2.0",
+    "gulp-util": "3.0.7",
+    "pretty-hrtime": "1.0.3",
+    "require-dir": "^1.2.0",
+    "underscore": "1.8.3",
+    "vinyl-fs": "^4.0.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "3.7.0"
+  },
+  "dependencies": {
+    "compare-versions": "3.0.0",
+    "fixed-data-table": "0.6.3",
+    "flux": "3.1.0",
+    "getmac": "1.2.1",
+    "localforage": "1.4.3",
+    "lodash": "4.17.2",
+    "moment": "2.17.1",
+    "mqtt": "2.1.3",
+    "node-uuid": "1.4.7",
+    "q": "1.4.1",
+    "qlobber": "0.7.0",
+    "react": "15.4.2",
+    "react-copy-to-clipboard": "4.2.3",
+    "react-dom": "15.4.2",
+    "react-router": "3.0.0",
+    "recharts": "0.19.0",
+    "request": "2.79.0",
+    "vinyl": "^3.0.0"
+  },
+  "main": "index.js"
+}
